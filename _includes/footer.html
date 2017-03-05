@@ -1,9 +1,13 @@
 <!-- Footer -->
 <footer>
+    {% include sponsors.html %}
     <div class="container">
         <div class="row">
             <div class="col-md-8">
                 <ul class="list-inline">
+                    {% assign sponsorPage = site.pages | where: "title","Sponsors" %}
+                    <li><a href="/assets/phpsc17-sponsorship.pdf">Sponsor us</a></li>
+                    &centerdot;
                     {% assign pages = site.pages | sort:"order" %}
                     {% for node in pages %}
                         {% if node.menu == 'footer' %}
@@ -21,7 +25,7 @@
                 </ul>
                 <p class="copyright text-muted small">{{ site.copyright }}</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3 col-md-offset-1">
                 <ul class="list-inline">
                     {% for social in site.social %}
                     <li>

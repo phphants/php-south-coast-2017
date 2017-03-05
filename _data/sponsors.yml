@@ -1,0 +1,18 @@
+- name: Spectrum IT
+  logo: spectrumit.png
+  level: Platinum
+  url: https://www.spectrumit.co.uk
+  description: >
+    Spectrum IT Recruitment is a specialist provider of IT and Technology recruitment to companies across Hampshire &amp; the South. Our expertise spans across web development, software engineering and digital environments and we boast a wealth of job opportunities with the region's leading employers. Spectrum IT is committed to supporting the local IT community, creating a positive experience for job seekers and providing our candidates with the platform to achieve their career goals and aspirations.
+- name: Nineteen Feet
+  logo: 19ft.png
+  level: Silver
+  url: https://19ft.com
+  description: >
+    Nineteen Feet provides software development and consultancy services to companies of all sizes. We have the experience to ensure success and can work with you to add new functionality to your PHP application, modernise it or set you on the right path when starting a brand new project.
+- name: Maru/edr
+  logo: maruedr.png
+  level: Silver
+  url: https://www.maruedr.com
+  description: >
+    Maru/edr is a technology-driven advisory services provider. Our job is to empower businesses through insight and data, helping them to make the critical business decisions needed to stay ahead. PHP sits at the heart of our technology and so, for another year, we’re excited to support our local community once again.

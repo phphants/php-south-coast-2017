@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    padding-bottom: 225px;
+    padding-bottom: 400px;
 }
 
 footer {
@@ -104,11 +104,36 @@ nav {
 #ticket-widget-homepage .tito-wrapper {
     background-color: white;
 }
+
 #ticket-button-nav button {
     @extend .btn;
     @extend .btn-primary;
     margin-left: 15px;
     margin-top: 8px;
+}
+
+#sponsors-bar {
+
+    margin-bottom: 10px;
+
+    .row {
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        max-height: 60px;
+        background: white;
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    a + a {
+        margin-left: 25px;
+    }
 }
 
 @import "../_sass/pages";
