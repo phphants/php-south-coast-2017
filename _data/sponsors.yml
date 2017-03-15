@@ -16,3 +16,13 @@
   url: https://www.maruedr.com
   description: >
     Maru/edr is a technology-driven advisory services provider. Our job is to empower businesses through insight and data, helping them to make the critical business decisions needed to stay ahead. PHP sits at the heart of our technology and so, for another year, we’re excited to support our local community once again.
+- name: PHP Women
+  logo: phpwomen.png
+  level: Community
+  url: https://phpwomen.org/
+- name: A Fistful of Dice
+  logo: afistfulofdice.png
+  level: Social
+  url: https://www.afistfulofdice.co.uk/page/aboutus
+  description: >
+    Board games provided by A Fistful of Dice
