@@ -1,0 +1,13 @@
+<div class="container" id="sponsors-bar">
+    <div class="row">
+        <p class="small">Our generous sponsors make this possible...</p>
+    </div>
+    <div class="row">
+        {% for sponsor in site.data.sponsors %}
+        <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
+            <img src="/img/sponsors/{{ sponsor.logo }}" alt="Sponsored by {{ sponsor.name }} ({{ sponsor.level }})"
+                 title="Sponsored by {{ sponsor.name }} ({{ sponsor.level }})">
+        </a>
+        {% endfor %}
+    </div>
+</div>
