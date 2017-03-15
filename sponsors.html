@@ -107,9 +107,11 @@ bodyClass: sponsors
                              title="{{ sponsor.name }}" alt="{{ sponsor.name }}"/>
                     </a>
                 </p>
-                <p>
-                    {{ sponsor.description }}
-                </p>
+                {% if sponsor.description %}
+                    <p>
+                        {{ sponsor.description }}
+                    </p>
+                {% endif %}
                 <p>
                     <a href="{{ sponsor.url }}" class="btn btn-default" target="_blank" rel="noopener noreferrer">
                         <i class="fa fa-external-link fa-fw" aria-hidden="true"></i>
