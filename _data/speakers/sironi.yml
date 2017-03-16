@@ -1,0 +1,9 @@
+name: Giorgio Sironi
+avatar: giorgio_sironi.jpeg
+twitter: giorgiosironi
+bio:
+talks:
+  talk1:
+    title: Long running PHP processes
+    abstract:
+    type: lightning

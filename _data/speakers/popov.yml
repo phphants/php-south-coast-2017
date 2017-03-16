@@ -1,0 +1,9 @@
+name: Nikita Popov
+avatar: nikita_popov.png
+twitter: nikita_ppv
+bio:
+talks:
+  talk1:
+    title: Static Optimization of PHP Bytecode
+    abstract:
+    type: regular

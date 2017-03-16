@@ -1,0 +1,9 @@
+name: Nils Adermann
+avatar: nils_adermann.png
+twitter: naderman
+bio:
+talks:
+  talk1:
+    title: Managing dependencies is more than running "composer update"
+    abstract:
+    type: regular
