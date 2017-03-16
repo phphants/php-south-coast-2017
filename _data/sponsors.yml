@@ -16,6 +16,12 @@
   url: https://www.maruedr.com
   description: >
     Maru/edr is a technology-driven advisory services provider. Our job is to empower businesses through insight and data, helping them to make the critical business decisions needed to stay ahead. PHP sits at the heart of our technology and so, for another year, we’re excited to support our local community once again.
+- name: SiteGround
+  logo: siteground.png
+  level: Silver
+  url: https://www.siteground.co.uk
+  description: >
+    SiteGround is a leading hosting provider internationally recognised for their unique approach to hosting. With a focus on performance, security and unmatched customer service, they provide solutions to protect your website from hacks and invented new technologies that can make your website run over one hundred times faster. To make the life of their geeky clients easier, they provide many goodies like free SSL certificate with each hosting account, automatic software updates, built-in caching and CDN, staging tool and GIT integration.
 - name: PHP Women
   logo: phpwomen.png
   level: Community
