@@ -1,4 +1,6 @@
+---
 name: Liam Wiltshire
+ref: wiltshire
 avatar: liam_wiltshire.jpeg
 twitter: l_wiltshire
 bio:
@@ -7,3 +9,4 @@ talks:
     title: RegEx Is Your Friend
     abstract:
     type: regular
+---

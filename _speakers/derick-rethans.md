@@ -1,4 +1,6 @@
+---
 name: Derick Rethans
+ref: rethans
 avatar: derick_rethans.jpeg
 twitter: derickr
 bio:
@@ -7,3 +9,4 @@ talks:
     title: What's New in Xdebug?
     abstract:
     type: lightning
+---

@@ -1,4 +1,6 @@
+---
 name: Amo Chohan
+ref: chohan
 avatar: amo_chohan.jpg
 twitter: amo_chohan
 bio:
@@ -7,3 +9,4 @@ talks:
     title: Test-driven Laravel
     abstract:
     type: regular
+---

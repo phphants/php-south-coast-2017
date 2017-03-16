@@ -16,15 +16,16 @@ bodyClass: speakers
 
 <div class="container">
     <div class="flex-row row">
-        {% for hash in site.data.speakers %}
-        {% assign speaker = hash[1] %}
+        {% for speaker in site.speakers %}
         {% if speaker.avatar %}
         <div class="col-xs-6 col-sm-4 col-lg-3">
             <div class="thumbnail ">
-                <img src="/img/speakers/{{ speaker.avatar }}" class="img-responsive img-rounded"
-                     alt="{{ speaker.name}}">
+                <a href="{{ speaker.url }}">
+                    <img src="/img/speakers/{{ speaker.avatar }}" class="img-responsive img-rounded"
+                         alt="{{ speaker.name}}">
+                </a>
                 <div class="caption">
-                    <h3>{{ speaker.name }}</h3>
+                    <h3><a href="{{ speaker.url }}">{{ speaker.name }}</a></h3>
                 </div>
             </div>
         </div>
@@ -34,15 +35,14 @@ bodyClass: speakers
     <div class="row">
         <h2>As well as...</h2>
         <ul>
-        {% for hash in site.data.speakers %}
-        {% assign speaker = hash[1] %}
-        {% if speaker.avatar %}
-        {% else %}
-        <li class="lead">
-            {{ speaker.name }}
-        </li>
-        {% endif %}
-        {% endfor %}
+            {% for speaker in site.speakers %}
+            {% if speaker.avatar %}
+            {% else %}
+            <li class="lead">
+                <a href="{{ speaker.url }}">{{ speaker.name }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
         </ul>
     </div>
 </div>

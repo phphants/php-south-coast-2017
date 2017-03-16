@@ -1,4 +1,6 @@
+---
 name: Gareth Ellis
+ref: ellis
 avatar: gareth_ellis.jpeg
 twitter: garethellis
 bio:
@@ -7,3 +9,4 @@ talks:
     title: "From Hamfist to Hamcrest: more expressive tests in PHP"
     abstract:
     type: lightning
+---

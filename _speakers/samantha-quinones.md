@@ -1,4 +1,6 @@
+---
 name: Samantha Quiñones
+ref: quinones
 avatar:
 twitter: ieatkillerbees
 bio:
@@ -7,3 +9,4 @@ talks:
     title: The New Revolution
     abstract:
     type: keynote
+---

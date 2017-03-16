@@ -1,4 +1,6 @@
+---
 name: Mathew Jenkinson
+ref: jenkinson
 avatar:
 twitter: mathewjenkinson
 bio:
@@ -7,3 +9,4 @@ talks:
     title: What developing in NodeJS has helped me become a better PHP developer
     abstract:
     type: lightning
+---

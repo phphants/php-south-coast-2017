@@ -1,4 +1,6 @@
+---
 name: Kat Zien
+ref: zien
 avatar: kat_zien.jpeg
 twitter: kasiazien
 bio:
@@ -7,3 +9,4 @@ talks:
     title: Get GOing with a new language
     abstract:
     type: regular
+---

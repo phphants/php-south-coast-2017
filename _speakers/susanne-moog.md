@@ -1,4 +1,6 @@
+---
 name: Susanne Moog
+ref: moog
 avatar: susanne_moog.jpeg
 twitter: psychomieze
 bio:
@@ -7,3 +9,4 @@ talks:
     title: Develop Yourself
     abstract:
     type: regular
+---

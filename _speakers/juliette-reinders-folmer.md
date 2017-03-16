@@ -1,4 +1,6 @@
+---
 name: Juliette Reinders Folmer
+ref: folmer
 avatar: juliette_reinders_folmer.jpg
 twitter: jrf_nl
 bio:
@@ -7,3 +9,4 @@ talks:
     title: Don't work for PHPCS, make PHPCS work for you
     abstract:
     type: regular
+---

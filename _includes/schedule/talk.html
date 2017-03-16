@@ -4,14 +4,22 @@
 >
     <p class="lead">
         {% if speaker.avatar %}
-        <img src="/img/speakers/{{ speaker.avatar }}" class="img-responsive img-rounded hidden-xs avatar" alt="{{ speaker.name }}">
+        <a href="{{ speaker.url }}">
+            <img src="/img/speakers/{{ speaker.avatar }}" class="img-responsive img-rounded hidden-xs avatar"
+                 alt="{{ speaker.name }}">
+        </a>
         {% endif %}
         {% if talk.type == 'keynote' %} Keynote: {% endif %}
         {{ talk.title }}
     </p>
     <p>
         <i class="fa fa-user" aria-hidden="true"></i>
-        {{ speaker.name }}
+        <a href="{{ speaker.url }}">
+            {{ speaker.name }}
+        </a>
+    </p>
+    <p>
+        {{ talk.abstract | markdownify}}
     </p>
 </td>
 

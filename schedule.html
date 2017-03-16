@@ -46,7 +46,7 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">09:10</td>
-            {% assign speaker = site.data.speakers.quinones %}
+            {% assign speaker = site.speakers | where: "ref","quinones" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% assign bothTracks = true %}
             {% include schedule/talk.html %}
@@ -57,11 +57,11 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">10:00</td>
-            {% assign speaker = site.data.speakers.duarte %}
+            {% assign speaker = site.speakers | where: "ref","duarte" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
 
-            {% assign speaker = site.data.speakers.rota %}
+            {% assign speaker = site.speakers | where: "ref","rota" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
@@ -75,18 +75,18 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">11:15</td>
-            {% assign speaker = site.data.speakers.popov %}
+            {% assign speaker = site.speakers | where: "ref","popov" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% assign bothSlots = true %}
             {% include schedule/talk.html %}
 
-            {% assign speaker = site.data.speakers.sironi %}
+            {% assign speaker = site.speakers | where: "ref","sironi" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
         <tr>
             <td class="lead">11:45</td>
-            {% assign speaker = site.data.speakers.ellis %}
+            {% assign speaker = site.speakers | where: "ref","ellis" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
@@ -100,11 +100,11 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">13:10</td>
-            {% assign speaker = site.data.speakers.adermann %}
+            {% assign speaker = site.speakers | where: "ref","adermann" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
 
-            {% assign speaker = site.data.speakers.zien %}
+            {% assign speaker = site.speakers | where: "ref","zien" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
@@ -114,18 +114,18 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">14:10</td>
-            {% assign speaker = site.data.speakers.mcnulty %}
+            {% assign speaker = site.speakers | where: "ref","mcnulty" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% assign bothSlots = true %}
             {% include schedule/talk.html %}
 
-            {% assign speaker = site.data.speakers.ereira %}
+            {% assign speaker = site.speakers | where: "ref","ereira" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
         <tr>
             <td class="lead">14:40</td>
-            {% assign speaker = site.data.speakers.rethans %}
+            {% assign speaker = site.speakers | where: "ref","rethans" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
@@ -139,11 +139,11 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">15:25</td>
-            {% assign speaker = site.data.speakers.reindersfolmer %}
+            {% assign speaker = site.speakers | where: "ref","folmer" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
 
-            {% assign speaker = site.data.speakers.khatavkar %}
+            {% assign speaker = site.speakers | where: "ref","khatavkar" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
@@ -153,18 +153,18 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">16:25</td>
-            {% assign speaker = site.data.speakers.chohan %}
+            {% assign speaker = site.speakers | where: "ref","chohan" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% assign bothSlots = true %}
             {% include schedule/talk.html %}
 
-            {% assign speaker = site.data.speakers.jenkinson %}
+            {% assign speaker = site.speakers | where: "ref","jenkinson" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
         <tr>
             <td class="lead">16:55</td>
-            {% assign speaker = site.data.speakers.troisi %}
+            {% assign speaker = site.speakers | where: "ref","troisi" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
@@ -205,7 +205,7 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">10:00</td>
-            {% assign speaker = site.data.speakers.moog %}
+            {% assign speaker = site.speakers | where: "ref","moog" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
@@ -215,7 +215,7 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">11:00</td>
-            {% assign speaker = site.data.speakers.stamey %}
+            {% assign speaker = site.speakers | where: "ref","stamey" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
@@ -225,7 +225,7 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">13:00</td>
-            {% assign speaker = site.data.speakers.heigl %}
+            {% assign speaker = site.speakers | where: "ref","heigl" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
@@ -235,7 +235,7 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">14:00</td>
-            {% assign speaker = site.data.speakers.wiltshire %}
+            {% assign speaker = site.speakers | where: "ref","wiltshire" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
@@ -249,7 +249,7 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">15:15</td>
-            {% assign speaker = site.data.speakers.merewood %}
+            {% assign speaker = site.speakers | where: "ref","merewood" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>
@@ -263,7 +263,7 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">16:35</td>
-            {% assign speaker = site.data.speakers.hoult %}
+            {% assign speaker = site.speakers | where: "ref","hoult" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
         </tr>

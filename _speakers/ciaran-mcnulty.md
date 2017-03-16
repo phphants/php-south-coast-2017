@@ -1,4 +1,6 @@
+---
 name: Ciaran McNulty
+ref: mcnulty
 avatar:
 twitter: ciaranmcnulty
 bio:
@@ -7,3 +9,4 @@ talks:
     title: Driving Design through Examples
     abstract:
     type: regular
+---

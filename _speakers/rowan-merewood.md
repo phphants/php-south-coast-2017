@@ -1,4 +1,6 @@
+---
 name: Rowan Merewood
+ref: merewood
 avatar: rowan_merewood.jpeg
 twitter: rowan_m
 bio:
@@ -7,3 +9,4 @@ talks:
     title: Connecting people - Identity in your platform
     abstract:
     type: regular
+---
