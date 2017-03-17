@@ -32,17 +32,4 @@ bodyClass: speakers
         {% endif %}
         {% endfor %}
     </div>
-    <div class="row">
-        <h2>As well as...</h2>
-        <ul>
-            {% for speaker in site.speakers %}
-            {% if speaker.avatar %}
-            {% else %}
-            <li class="lead">
-                <a href="{{ speaker.url }}">{{ speaker.name }}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
 </div>

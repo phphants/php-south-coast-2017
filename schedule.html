@@ -158,9 +158,13 @@ bodyClass: schedule
             {% assign bothSlots = true %}
             {% include schedule/talk.html %}
 
-            {% assign speaker = site.speakers | where: "ref","jenkinson" | first %}
-            {% assign talk = speaker.talks.talk1 %}
-            {% include schedule/talk.html %}
+            <td>
+                <p class="lead">Talk TBC</p>
+                <p>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    Speaker TBC
+                </p>
+            </td>
         </tr>
         <tr>
             <td class="lead">16:55</td>
@@ -171,7 +175,8 @@ bodyClass: schedule
         <tr>
             <td>17:30</td>
             <td colspan="2">
-                Food, bar and social (18+)
+                <p class="lead">Food, bar and social (18+)</p>
+                More details to be confirmed...
             </td>
         </tr>
         <tr>
@@ -221,7 +226,11 @@ bodyClass: schedule
         </tr>
         <tr>
             <td>12:00</td>
-            <td><strong>Lunch</strong></td>
+            <td>
+                <strong>Lunch</strong>
+                <p>Lunch will be served in the main exhibition area.</p>
+                <p>Free water, with soft drinks available to purchase (cash only).</p>
+            </td>
         </tr>
         <tr>
             <td class="lead">13:00</td>

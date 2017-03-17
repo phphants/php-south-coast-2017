@@ -29,6 +29,9 @@ layout: default
             {% if talk.type == 'keynote' %}
             <em class="small">(Keynote)</em>
             {% endif %}
+            {% if talk.type == 'lightning' %}
+            <em class="small">(Lightning)</em>
+            {% endif %}
         </h3>
 
         {% if talk.joindin %}
