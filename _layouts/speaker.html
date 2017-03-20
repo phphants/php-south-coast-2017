@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="container">
+    <article>
+        <header>
+            <h2>{{page.name}}</h2>
+        </header>
+        {% if page.avatar %}
+        <img src="/img/speakers/{{ page.avatar }}" alt="{{ page.name }}" class="img-responsive img-thumbnail pull-left avatar"/>
+        {% endif %}
+
+        {{ page.bio | markdownify }}
+
+        {% if page.twitter %}
+        <p>
+            <i class="fa fa-twitter"></i>
+            <a href="https://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a>
+        </p>
+        {% endif %}
+
+        <div class="clearfix"></div>
+
+        {% for hash in page.talks %}
+        {% assign talk = hash[1] %}
+        <h3>
+            Talk: {{ talk.title }}
+            {% if talk.type == 'keynote' %}
+            <em class="small">(Keynote)</em>
+            {% endif %}
+            {% if talk.type == 'lightning' %}
+            <em class="small">(Lightning)</em>
+            {% endif %}
+        </h3>
+
+        {% if talk.joindin %}
+        <p>
+            Joind.in:
+            <a title="Use this link to give feedback" href="{{ talk.joindin }}">{{ talk.joindin }}</a>
+        </p>
+        {% endif %}
+
+        {{ talk.abstract | markdownify }}
+        {% endfor %}
+
+        <hr/>
+
+        <a href="/schedule/">Schedule</a> | <a href="/speakers/">Speakers</a>
+    </article>
+</div>

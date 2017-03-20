@@ -1,0 +1,27 @@
+<td
+    {% if bothTracks %} colspan="2" {% endif %}
+    {% if bothSlots %} rowspan="2" {% endif %}
+>
+    <p class="lead">
+        {% if speaker.avatar %}
+        <a href="{{ speaker.url }}">
+            <img src="/img/speakers/{{ speaker.avatar }}" class="img-responsive img-rounded hidden-xs avatar"
+                 alt="{{ speaker.name }}">
+        </a>
+        {% endif %}
+        {% if talk.type == 'keynote' %} Keynote: {% endif %}
+        {{ talk.title }}
+    </p>
+    <p>
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <a href="{{ speaker.url }}">
+            {{ speaker.name }}
+        </a>
+    </p>
+    <p class="pull-right">
+        <a href="{{ speaker.url }}">Read more &raquo;</a>
+    </p>
+</td>
+
+{% assign bothTracks = false %}
+{% assign bothSlots = false %}

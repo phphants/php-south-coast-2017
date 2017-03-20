@@ -15,20 +15,271 @@ bodyClass: schedule
 </div>
 
 <div class="container">
-    <h3>Summary</h3>
-    <p>
-        The call for papers is now closed, and we're working on the talk selection currently. We aim to have schedule released by the end of February if all goes well!
-    </p>
-    <h4>Friday 9th June</h4>
-    <ul>
-        <li>08:00 &mdash; Doors open</li>
-        <li>09:00 &mdash; Opening &amp; keynote</li>
-        <li>10:00 &rarr; 17:30 &mdash; Sessions</li>
-        <li>17:30 &rarr; 23:00 &mdash; Free social (at the same venue, 18+ only)</li>
-    </ul>
-    <h4>Saturday 10th June</h4>
-    <ul>
-        <li>09:00 &mdash; Morning refreshments</li>
-        <li>10:00 &rarr; 17:30 &mdash; Sessions</li>
-    </ul>
+    <p>This year, the conference takes places over two days; two tracks on Friday and one track on Saturday.</p>
+    <p>View day: <a href="#friday">Friday</a> | <a href="#saturday">Saturday</a></p>
+    <h2 id="friday">Friday 9th June</h2>
+    <table class="table table-striped table-bordered">
+        <thead>
+        <tr>
+            <th>Time</th>
+            <th>Spectrum IT Room</th>
+            <th>Track 2</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>08:00</td>
+            <td colspan="2">
+                <strong>Registration and morning refreshments</strong>
+                <p>
+                    Please arrive between 8am and 9am to register. Tea, coffee and light snacks will be available.
+                </p>
+                <p>
+                    Free water will be available throughout the day. Soft drinks will also be available to purchase
+                    (cash only).
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td class="lead">09:00</td>
+            <td colspan="2"><p class="lead">Opening announcements</p></td>
+        </tr>
+        <tr>
+            <td class="lead">09:10</td>
+            {% assign speaker = site.speakers | where: "ref","quinones" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% assign bothTracks = true %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>09:50</td>
+            <td colspan="2">Change over</td>
+        </tr>
+        <tr>
+            <td class="lead">10:00</td>
+            {% assign speaker = site.speakers | where: "ref","duarte" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+
+            {% assign speaker = site.speakers | where: "ref","rota" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>10:50</td>
+            <td colspan="2">
+                <strong>Refreshments</strong>
+                <p>Tea and coffee will be served.</p>
+                <p>Free water, with soft drinks available to purchase (cash only).</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="lead">11:15</td>
+            {% assign speaker = site.speakers | where: "ref","popov" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% assign bothSlots = true %}
+            {% include schedule/talk.html %}
+
+            {% assign speaker = site.speakers | where: "ref","sironi" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td class="lead">11:45</td>
+            {% assign speaker = site.speakers | where: "ref","ellis" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>12:05</td>
+            <td colspan="2">
+                <strong>Lunch</strong>
+                <p>Lunch will be served in the main exhibition area.</p>
+                <p>Free water, with soft drinks available to purchase (cash only).</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="lead">13:10</td>
+            {% assign speaker = site.speakers | where: "ref","adermann" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+
+            {% assign speaker = site.speakers | where: "ref","zien" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>14:00</td>
+            <td colspan="2">Room change</td>
+        </tr>
+        <tr>
+            <td class="lead">14:10</td>
+            {% assign speaker = site.speakers | where: "ref","mcnulty" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% assign bothSlots = true %}
+            {% include schedule/talk.html %}
+
+            {% assign speaker = site.speakers | where: "ref","ereira" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td class="lead">14:40</td>
+            {% assign speaker = site.speakers | where: "ref","rethans" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>15:00</td>
+            <td colspan="2">
+                <strong>Refreshments</strong>
+                <p>Tea and coffee will be served.</p>
+                <p>Free water, with soft drinks available to purchase (cash only).</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="lead">15:25</td>
+            {% assign speaker = site.speakers | where: "ref","folmer" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+
+            {% assign speaker = site.speakers | where: "ref","khatavkar" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>16:15</td>
+            <td colspan="2">Room change</td>
+        </tr>
+        <tr>
+            <td class="lead">16:25</td>
+            {% assign speaker = site.speakers | where: "ref","chohan" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% assign bothSlots = true %}
+            {% include schedule/talk.html %}
+
+            <td>
+                <p class="lead">Talk TBC</p>
+                <p>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    Speaker TBC
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td class="lead">16:55</td>
+            {% assign speaker = site.speakers | where: "ref","troisi" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>17:30</td>
+            <td colspan="2">
+                <p class="lead">Food, bar and social (18+)</p>
+                More details to be confirmed...
+            </td>
+        </tr>
+        <tr>
+            <td>23:00</td>
+            <td colspan="2">
+                Everyone must leave!
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2 id="saturday">Saturday 10th June</h2>
+    <p>On Saturday, all talks take place in the Spectrum IT room.</p>
+    <table class="table table-striped table-bordered">
+        <thead>
+        <tr>
+            <th>Time</th>
+            <th>Spectrum IT Room</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>--</td>
+            <td>Sleep! No early morning hangover slot here :)</td>
+        </tr>
+        <tr>
+            <td>09:00</td>
+            <td>
+                <strong>Morning refreshments</strong>
+            </td>
+        </tr>
+        <tr>
+            <td class="lead">10:00</td>
+            {% assign speaker = site.speakers | where: "ref","moog" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>10:50</td>
+            <td>Change over</td>
+        </tr>
+        <tr>
+            <td class="lead">11:00</td>
+            {% assign speaker = site.speakers | where: "ref","stamey" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>12:00</td>
+            <td>
+                <strong>Lunch</strong>
+                <p>Lunch will be served in the main exhibition area.</p>
+                <p>Free water, with soft drinks available to purchase (cash only).</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="lead">13:00</td>
+            {% assign speaker = site.speakers | where: "ref","heigl" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>13:50</td>
+            <td>Change over</td>
+        </tr>
+        <tr>
+            <td class="lead">14:00</td>
+            {% assign speaker = site.speakers | where: "ref","wiltshire" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>14:50</td>
+            <td colspan="2">
+                <strong>Refreshments</strong>
+                <p>Tea and coffee will be served.</p>
+                <p>Free water, with soft drinks available to purchase (cash only).</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="lead">15:15</td>
+            {% assign speaker = site.speakers | where: "ref","merewood" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>16:05</td>
+            <td>Change over</td>
+        </tr>
+        <tr>
+            <td class="lead">16:15</td>
+            <td class="lead">Closing speech &amp; prize draw</td>
+        </tr>
+        <tr>
+            <td class="lead">16:35</td>
+            {% assign speaker = site.speakers | where: "ref","hoult" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
+        </tr>
+        <tr>
+            <td>17:15</td>
+            <td>Conference finishes</td>
+        </tr>
+        </tbody>
+    </table>
 </div>
