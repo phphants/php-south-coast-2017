@@ -4,12 +4,7 @@ ref: khatavkar
 avatar: viraj_khatavkar.jpeg
 twitter: virajkhatavkar
 bio: >
-    Viraj Khatavkar is one of the founders &amp; Technology Director at
-    [Tantragyan Technologies Pvt Ltd](http://tantra-gyan.com). 2 years ago he had to unwillingly manage his servers in
-    which he was able to find his curiosity and interest. Recently he started his
-    [blog](https://virajkhatavkar.com/newsletter) to share his knowledge on Server Management for developers. You might
-    know him as a creator of [Deploy-Tantra](https://deploytantra.com). In his free time, he writes for
-    [Sitepoint](https://www.sitepoint.com/author/vkhatavkar/) and Pusher.
+    Viraj is a software developer, writer, [speaker](https://virajkhatavkar.com/speaking/), and entrepreneur from Mumbai, India. You might know him as a creator of [Deploy-Tantra](https://deploytantra.com/). Viraj has delivered PHP consulting services to many clients across the globe. He is fond of VueJS, Laravel, and CakePHP. Viraj occasionally writes tutorials for [Sitepoint](https://www.sitepoint.com/author/vkhatavkar/) and Pusher. In his free time, he shares his thoughts on his [personal blog](https://virajkhatavkar.com/) and loves to swim.
 talks:
   talk1:
     title: Testing for people who hate testing
