@@ -22,6 +22,12 @@
   url: https://www.siteground.co.uk
   description: >
     SiteGround is a leading hosting provider internationally recognised for their unique approach to hosting. With a focus on performance, security and unmatched customer service, they provide solutions to protect your website from hacks and invented new technologies that can make your website run over one hundred times faster.
+- name: Magento
+  logo: magento.png
+  level: Silver
+  url: https://magento.com
+  description: >
+    Trusted by 260,000+ businesses worldwide, Magento Commerce leads in cloud digital commerce for retailers and brands across B2C and B2B industries. Magento is the foremost provider to the Internet Retailer Top 1000 – over $101B in gross merchandise volume is transacted on the platform annually.
 - name: PHP Women
   logo: phpwomen.png
   level: Community
