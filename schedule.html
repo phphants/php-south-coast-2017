@@ -158,13 +158,9 @@ bodyClass: schedule
             {% assign bothSlots = true %}
             {% include schedule/talk.html %}
 
-            <td>
-                <p class="lead">Talk TBC</p>
-                <p>
-                    <i class="fa fa-user" aria-hidden="true"></i>
-                    Speaker TBC
-                </p>
-            </td>
+            {% assign speaker = site.speakers | where: "ref","heap" | first %}
+            {% assign talk = speaker.talks.talk1 %}
+            {% include schedule/talk.html %}
         </tr>
         <tr>
             <td class="lead">16:55</td>
