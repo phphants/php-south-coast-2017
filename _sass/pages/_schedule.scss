@@ -16,3 +16,7 @@ table {
 .jumbotron {
     background-image: url(/img/schedule.jpg);
 }
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
