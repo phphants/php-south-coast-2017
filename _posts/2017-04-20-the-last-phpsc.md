@@ -34,3 +34,5 @@ sponsor for.
 
 I'd like to thank the whole team, past and present who have helped grow this amazing conference. I'm so proud of the
 whole team. Let's see this thing out with a bang!
+
+&nbsp;&mdash; James
