@@ -4,6 +4,23 @@
   url: https://www.spectrumit.co.uk
   description: >
     Spectrum IT Recruitment is a specialist provider of IT and Technology recruitment to companies across Hampshire &amp; the South. Our expertise spans across web development, software engineering and digital environments and we boast a wealth of job opportunities with the region's leading employers. Spectrum IT is committed to supporting the local IT community, creating a positive experience for job seekers and providing our candidates with the platform to achieve their career goals and aspirations.
+- name: D3R
+  logo: d3r.png
+  level: Gold
+  url: https://d3r.com
+  description:
+- name: Deploy
+  logo: deploy.png
+  level: Gold
+  url: https://www.deployhq.com/
+  description: >
+    Deploy helps you get your code from your Git, Mercurial or Subversion repository onto your servers using FTP or SFTP. You just give us the details and we handle the rest - it's as simple as that. Give it a go today and get one month free on our Basic plan with code PHPSC17.
+- name: Inviqa
+  logo: inviqa.png
+  level: Gold
+  url: https://inviqa.com/
+  description: >
+    Inviqa is a technology partner and consultant trusted by leading brands to meet strategic goals through digital solutions. A specialist in ecommerce, content management, and digital innovation, we help pioneering businesses engage, convert, and retain their audiences. We're proud to count some of the world's leading retailers as clients, and we're always on the look-out for new talent to join our teams.
 - name: Nineteen Feet
   logo: 19ft.png
   level: Silver
