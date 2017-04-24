@@ -45,6 +45,12 @@
   url: https://magento.com
   description: >
     Trusted by 260,000+ businesses worldwide, Magento Commerce leads in cloud digital commerce for retailers and brands across B2C and B2B industries. Magento is the foremost provider to the Internet Retailer Top 1000 – over $101B in gross merchandise volume is transacted on the platform annually.
+- name: Roave
+  logo: roave.png
+  level: Silver
+  url: https://roave.com
+  description: >
+    Roave is a full-service web development firm, offering services such as consulting, training, software development, and more. Roave employs some of the most recognized and accomplished experts in the industry to ensure that organizations have access to the talent they need, when they need it.
 - name: PHP Women
   logo: phpwomen.png
   level: Community
