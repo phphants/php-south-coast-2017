@@ -69,6 +69,32 @@ bodyClass: sponsors
         {% endfor %}
     </div>
 
+    <div class="sponsors-inner gold">
+        <h4>Gold</h4>
+        {% assign sponsors = site.data.sponsors | where: "level","Gold" %}
+        {% for sponsor in sponsors %}
+        <div class="row text-center">
+            <div class="col-md-8 col-md-offset-2">
+                <p>
+                    <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer">
+                        <img src="/img/sponsors/{{ sponsor.logo }}" class="img-responsive center-block"
+                             title="{{ sponsor.name }}" alt="{{ sponsor.name }}"/>
+                    </a>
+                </p>
+                <p>
+                    {{ sponsor.description }}
+                </p>
+                <p>
+                    <a href="{{ sponsor.url }}" class="btn btn-default" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-external-link fa-fw" aria-hidden="true"></i>
+                        Visit {{ sponsor.name }}'s website
+                    </a>
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
     <div class="sponsors-inner silver">
         <h4>Silver</h4>
         {% assign sponsors = site.data.sponsors | where: "level","Silver" %}
