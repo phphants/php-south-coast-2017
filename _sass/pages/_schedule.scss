@@ -19,4 +19,9 @@ table {
 
 .table > tbody > tr > td {
     vertical-align: middle;
+
+    &.hands-on-space-info-cell-column {
+        vertical-align: top;
+        width: 45%;
+    }
 }

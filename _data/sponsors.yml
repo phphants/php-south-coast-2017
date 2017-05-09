@@ -21,6 +21,12 @@
   url: https://inviqa.com/
   description: >
     Inviqa is a technology partner and consultant trusted by leading brands to meet strategic goals through digital solutions. A specialist in ecommerce, content management, and digital innovation, we help pioneering businesses engage, convert, and retain their audiences. We're proud to count some of the world's leading retailers as clients, and we're always on the look-out for new talent to join our teams.
+- name: Nexmo
+  logo: nexmo.png
+  level: Gold
+  url: https://www.nexmo.com/
+  description: >
+    Nexmo is a global cloud communications platform, providing APIs and SDKs for SMS, voice, phone verification, messaging and advanced multi-channel conversations. We have libraries across a range of platforms including PHP, enabling you to build communications features such as two-factor authentication, two-way and group messaging, one to one or multi person calls.
 - name: Nineteen Feet
   logo: 19ft.png
   level: Silver
@@ -55,6 +61,10 @@
   logo: phpwomen.png
   level: Community
   url: https://phpwomen.org/
+- name: RootScope
+  logo: rootscope.png
+  level: Community
+  url: https://rootscope.co.uk/
 - name: A Fistful of Dice
   logo: afistfulofdice.png
   level: Social
