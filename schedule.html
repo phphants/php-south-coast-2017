@@ -15,7 +15,10 @@ bodyClass: schedule
 </div>
 
 <div class="container">
-    <p>This year, the conference takes places over two days; two tracks on Friday and one track on Saturday.</p>
+    <p>
+        This year, the conference takes places over two days; two tracks on Friday and one track on Saturday. Saturday
+        will also feature a hands on space (in the second track).
+    </p>
     <p>View day: <a href="#friday">Friday</a> | <a href="#saturday">Saturday</a></p>
     <h2 id="friday">Friday 9th June</h2>
     <table class="table table-striped table-bordered">
@@ -185,22 +188,19 @@ bodyClass: schedule
     </table>
 
     <h2 id="saturday">Saturday 10th June</h2>
-    <p>On Saturday, all talks take place in the Spectrum IT room.</p>
+    <p>On Saturday, all talks take place in the Spectrum IT room. Track two will be home to our hands-on space.</p>
     <table class="table table-striped table-bordered">
         <thead>
         <tr>
             <th>Time</th>
             <th>Spectrum IT Room</th>
+            <th>Track 2</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>--</td>
-            <td>Sleep! No early morning hangover slot here :)</td>
-        </tr>
-        <tr>
             <td>09:00</td>
-            <td>
+            <td colspan="3">
                 <strong>Morning refreshments</strong>
             </td>
         </tr>
@@ -209,6 +209,25 @@ bodyClass: schedule
             {% assign speaker = site.speakers | where: "ref","moog" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
+            <td rowspan="9" class="hands-on-space-info-cell-column">
+                <strong>Hands on space</strong>
+                <p>
+                    On the second day, the second track of the conference will be transformed into a <em>Hands On
+                    Space</em> - somewhere for people to put into practice the skills and technologies from their
+                    favourite talks, collaborate with other attendees, and get some personal in-depth tutorials from the
+                    experts.
+                </p>
+                <p>
+                    There'll be tables for you to sit down and get stuck in, and we'll post a timetable of who you can
+                    expect to work with during each hour of the day, alongside the great talks in the main track.
+                </p>
+                <p>
+                    Slots will be available to anyone who wants to take part - perhaps you'd like to give a face-to-face
+                    tutorial on your favourite framework, or show people how easy it is to contribute to your team's
+                    open source project? You don't have to pick a time now, but if you're interested, please contact us
+                    so we can keep you updated and answer any questions you might have.
+                </p>
+            </td>
         </tr>
         <tr>
             <td>10:50</td>
@@ -246,7 +265,7 @@ bodyClass: schedule
         </tr>
         <tr>
             <td>14:50</td>
-            <td colspan="2">
+            <td>
                 <strong>Refreshments</strong>
                 <p>Tea and coffee will be served.</p>
                 <p>Free water, with soft drinks available to purchase (cash only).</p>
@@ -260,21 +279,22 @@ bodyClass: schedule
         </tr>
         <tr>
             <td>16:05</td>
-            <td>Change over</td>
+            <td colspan="2">Change over</td>
         </tr>
         <tr>
             <td class="lead">16:15</td>
-            <td class="lead">Closing speech &amp; prize draw</td>
+            <td class="lead" colspan="2">Closing speech &amp; prize draw</td>
         </tr>
         <tr>
             <td class="lead">16:35</td>
             {% assign speaker = site.speakers | where: "ref","hoult" | first %}
             {% assign talk = speaker.talks.talk1 %}
+            {% assign bothTracks = true %}
             {% include schedule/talk.html %}
         </tr>
         <tr>
             <td>17:15</td>
-            <td>Conference finishes</td>
+            <td colspan="2">Conference finishes</td>
         </tr>
         </tbody>
     </table>
