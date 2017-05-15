@@ -8,7 +8,8 @@
   logo: d3r.png
   level: Gold
   url: https://d3r.com
-  description:
+  description: >
+    D3R was founded in 2006 by developers who knew there must be a better way. We are a digital agency with a difference, building and maintaining our own platform to meet the unique needs of our customers. We believe in creating long term, sustainable relationships and strive to create an excellent working environment and deliver amazing results for our clients.
 - name: Deploy
   logo: deploy.png
   level: Gold
