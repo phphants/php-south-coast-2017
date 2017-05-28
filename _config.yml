@@ -54,3 +54,7 @@ defaults:
     values:
       layout: speaker
       bodyClass: speaker
+  - scope:
+      type: posts
+    values:
+      layout: post
