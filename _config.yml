@@ -43,6 +43,8 @@ social:
     url: https://www.facebook.com/events/557990004396353/
   - title: github
     url: https://github.com/phphants/php-south-coast-2017
+  - title: flickr
+    url: https://www.flickr.com/photos/phpsouthcoast/
 
 collections:
   speakers:
