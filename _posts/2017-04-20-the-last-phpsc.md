@@ -1,6 +1,5 @@
 ---
 title: 2017 will be the last PHP South Coast conference
-layout: post
 ---
 
 It is with a heavy heart that I must make the announcement that the PHP South Coast conference will not return in 2018.
