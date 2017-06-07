@@ -254,7 +254,7 @@ bodyClass: schedule
         </tr>
         <tr>
             <td class="lead">10:00</td>
-            {% assign speaker = site.speakers | where: "ref","moog" | first %}
+            {% assign speaker = site.speakers | where: "ref","allen" | first %}
             {% assign talk = speaker.talks.talk1 %}
             {% include schedule/talk.html %}
             <td rowspan="9" class="hands-on-space-info-cell-column">
