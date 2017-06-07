@@ -4,7 +4,7 @@ ref: allen
 avatar: rob_allen.jpg
 twitter: akrabat
 bio: >
-    Rob Allen is a software consultant and developer. He has been involved in software architecture and development for many years and writes code in PHP, Swift and other interesting languages. He is part of Slim Framework’s leadership team and contributes to other open source projects. Rob is also a member of the Zend Framework Community team and wrote Zend Framework in Action. Based in the UK, he runs Nineteen Feet Limited, focussing on web development, training and consultancy. In his spare time, Rob blogs at akrabat.com and can often be seen with a camera in his hand.
+    Rob Allen is a software consultant and developer. He has been involved in software architecture and development for many years and writes code in PHP, Swift and other interesting languages. He is part of Slim Framework’s leadership team and contributes to other open source projects. Rob is also a member of the Zend Framework Community team and wrote Zend Framework in Action. Based in the UK, he runs Nineteen Feet Limited, focussing on web development, training and consultancy. In his spare time, Rob blogs at [akrabat.com](http://akrabat.com) and can often be seen with a camera in his hand.
 talks:
   talk1:
     title: 5 Features of a Good API
