@@ -159,6 +159,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
 }
+
 .flex-row > [class*='col-'] {
     display: flex;
     flex-direction: column;
@@ -172,9 +173,11 @@ nav {
     height: auto;
     position: relative;
 }
+
 .flex-text {
     flex-grow: 1;
 }
+
 .flex-row img {
     min-width: 0;
     width: 100%;
